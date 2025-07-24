@@ -1,5 +1,10 @@
 # Needed settings for custom checks.
 
+## Docker
+```
+usermod -a -G docker zabbix
+```
+
 ## RPI
 ```
 usermod -a -G video zabbix
